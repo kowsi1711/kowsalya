@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+
+ 
+  
+  /* -webkit-overflow-scrolling: touch;
+   */
+
+body{
+  background-image: url('images/kowsi.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.header {
+  display: block;
+  padding: 3px;
+  text-align: center;
+  background: #1abc9c;
+  font-size: 20px;
+  font-family: Matura MT Script Capitals;
+}
+
+.vertical-menu {
+  width: 180px;
+  float: right;
+  font-family: magneto;
+  font-family: ravie;
+  
+}
+.vertical-menu a {
+  background-color: lightcoral;
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  line-height: initial;
+  text-align: center;
+}
+.vertical-menu a:hover {
+  background-color: white;
+  line-height: initial;
+}
+p {
+  color: red;
+  font-family: Lucida Handwriting;
+  font-size: 20px;
+  line-height: initial;
+}
+button {
+  border: 5px;
+  text-align: center;
+  color: cadetblue;
+  background-color: whitesmoke;
+}
+#column {
+  padding: 20px;
+  height: 450px;
+  flex: 50%;
+  text-align: center;
+}
+#row {
+  display: flex;
+  box-sizing: border-box;
+}
+ul li {
+  font-size: 22px;
+  color: cornflowerblue;
+  text-align: left;
+}
+#meto img{
+ 
+  width: 300px;
+  height: 300px;
+  transition: height 2s, width 2s, transform 2s;
+
+}
+#melo{
+  margin-bottom: 12rem;
+}
+#melo img {
+  width: 170px;
+  height: 170px;
+  transition: width 2s, height 2s, transform 2s;
+}
+#melo img:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+
+h1 {
+  font-family: ravie;
+  color: purple;
+  /* font-size: 18px; */
+}
+.parallax {
+  background-image: url("images/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vh;
+}
+
+
+
+h1{
+  color:purple;
+  font-size: 20px;
+  font-family:ravie;
+  text-align: center;
+}
+h2{
+  font-family: Viner Hand ITC;
+  font-size:20px;
+  color: coral;
+}
+
+#emoj img {
+  width: 170px;
+  height: 170px;
+  transition: width 2s, height 2s, transform 2s;
+}
+#emoj img:hover {
+  width: 300px;
+  height: 300px;
+  opacity:0.5;
+  
+  
+}
+
+.column img{
+  float: left;
+  width:400px;
+  height:400px;
+  padding: 50px;
+
+}
+.column img:hover{
+  margin-top: 12px;
+  opacity:0.5;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table;
+}
+
